@@ -12,6 +12,6 @@ ADD run.sh /opt/run.sh
 
 EXPOSE 8888
 
-WORKDIR ${NOTEBOOK_HOME:-/opt}
+WORKDIR /opt/spark
 
 CMD ["/bin/bash","/opt/run.sh"]
